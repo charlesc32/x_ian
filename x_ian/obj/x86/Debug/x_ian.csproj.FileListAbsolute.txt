@@ -1,0 +1,4 @@
+c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\bin\Debug\x_ian.exe
+c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\bin\Debug\x_ian.pdb
+c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\obj\x86\Debug\x_ian.exe
+c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\obj\x86\Debug\x_ian.pdb

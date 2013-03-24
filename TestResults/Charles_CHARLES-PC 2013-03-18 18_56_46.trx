@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="58959a0e-3b17-4238-b502-2d2d31a3f952" name="Charles@CHARLES-PC 2013-03-18 18:56:46" runUser="CHARLES-PC\Charles" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="351c7e20-4e37-4174-9215-97a49a9038e8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\charles\documents\visual studio 2010\Projects\x_ian\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Charles_CHARLES-PC 2013-03-18 18_56_46">
+      <DeploymentItem filename="c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\bin\Debug\x_ian.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-18T18:56:46.1791805-07:00" queuing="2013-03-18T18:56:46.2021815-07:00" start="2013-03-18T18:56:46.2051820-07:00" finish="2013-03-18T18:56:46.3752037-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="x_ianTest" storage="c:\users\charles\documents\visual studio 2010\projects\x_ian\testproject1\bin\debug\testproject1.dll" id="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d">
+      <Execution id="c7207157-947c-4b86-ab66-96c97e7b700a" />
+      <TestMethod codeBase="c:/users/charles/documents/visual studio 2010/Projects/x_ian/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="x_ianTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d" executionId="c7207157-947c-4b86-ab66-96c97e7b700a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c7207157-947c-4b86-ab66-96c97e7b700a" testId="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d" testName="x_ianTest" computerName="CHARLES-PC" duration="00:00:00.0251997" startTime="2013-03-18T18:56:46.2091826-07:00" endTime="2013-03-18T18:56:46.3642024-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7207157-947c-4b86-ab66-96c97e7b700a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at TestProject1.ProgramTest.x_ianTest() in c:\users\charles\documents\visual studio 2010\Projects\x_ian\TestProject1\ProgramTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

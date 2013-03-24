@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="66abc3be-da26-4b3e-9ee8-20de2d7479f4" name="Charles@CHARLES-PC 2013-03-18 21:22:45" runUser="CHARLES-PC\Charles" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="351c7e20-4e37-4174-9215-97a49a9038e8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\charles\documents\visual studio 2010\Projects\x_ian\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Charles_CHARLES-PC 2013-03-18 21_22_45">
+      <DeploymentItem filename="c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\bin\Debug\x_ian.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-18T21:22:45.3022852-07:00" queuing="2013-03-18T21:22:46.0753785-07:00" start="2013-03-18T21:22:46.1813916-07:00" finish="2013-03-18T21:23:20.4717421-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="x_ianTest" storage="c:\users\charles\documents\visual studio 2010\projects\x_ian\testproject1\bin\debug\testproject1.dll" id="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d">
+      <Execution id="1f15d4b4-7b0b-4eaa-ad3d-6a65fb4458b0" />
+      <TestMethod codeBase="c:/users/charles/documents/visual studio 2010/Projects/x_ian/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="x_ianTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d" executionId="1f15d4b4-7b0b-4eaa-ad3d-6a65fb4458b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1f15d4b4-7b0b-4eaa-ad3d-6a65fb4458b0" testId="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d" testName="x_ianTest" computerName="CHARLES-PC" duration="00:00:33.7177454" startTime="2013-03-18T21:22:46.2584016-07:00" endTime="2013-03-18T21:23:20.4157344-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f15d4b4-7b0b-4eaa-ad3d-6a65fb4458b0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

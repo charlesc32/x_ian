@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3bbe080f-e6af-4e04-b6d0-5f7a6b6c29ec" name="Charles@CHARLES-PC 2013-03-18 21:49:20" runUser="CHARLES-PC\Charles" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="351c7e20-4e37-4174-9215-97a49a9038e8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\charles\documents\visual studio 2010\Projects\x_ian\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Charles_CHARLES-PC 2013-03-18 21_49_20">
+      <DeploymentItem filename="c:\users\charles\documents\visual studio 2010\Projects\x_ian\x_ian\bin\Debug\x_ian.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-18T21:49:20.3876207-07:00" queuing="2013-03-18T21:49:21.0236987-07:00" start="2013-03-18T21:49:21.1077142-07:00" finish="2013-03-18T21:49:43.8825983-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CHARLES-PC" outcome="Error" timestamp="2013-03-18T21:49:43.8765980-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="x_ianTest" storage="c:\users\charles\documents\visual studio 2010\projects\x_ian\testproject1\bin\debug\testproject1.dll" id="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d">
+      <Execution id="956e1b9f-64ab-484f-a87d-97f15811c6bc" />
+      <TestMethod codeBase="c:/users/charles/documents/visual studio 2010/Projects/x_ian/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProgramTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="x_ianTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d" executionId="956e1b9f-64ab-484f-a87d-97f15811c6bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="956e1b9f-64ab-484f-a87d-97f15811c6bc" testId="9ae683a9-fb12-fd6e-7e02-76da0bc2da8d" testName="x_ianTest" computerName="CHARLES-PC" duration="00:00:22.6948790" startTime="2013-03-18T21:49:21.1877193-07:00" endTime="2013-03-18T21:49:43.8825983-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="956e1b9f-64ab-484f-a87d-97f15811c6bc">
+    </UnitTestResult>
+  </Results>
+</TestRun>
